@@ -1,20 +1,20 @@
-\# 洪偉棋
+# 洪偉棋
 
-\## 關於我
+## 關於我
 
-\* Word
+* Word
 
-\* Java
+* Java
 
-\* \*\*Python\*\*
+* **Python**
 
-\*程式只要能執行就不要去動它。\*
+*程式只要能執行就不要去動它。*
 
 
 
-\[Gemini](https://gemini.google.com/app?hl=zh-TW)
+[Gemini](https://gemini.google.com/app?hl=zh-TW)
 
-!\[頭像](/pic1.png)
+![頭像](/pic1.png)
 
 
 
@@ -42,7 +42,7 @@ app.get("/index", (req, res) => {
 
 app.get("/questionbank", (req, res) => {
 
-&nbsp;   pageGet("questionbank\_index", res, req);
+&nbsp;   pageGet("questionbank_index", res, req);
 
 })
 
@@ -59,6 +59,7 @@ app.get("/questionbank/:subject", (req, res) => {
 > 是因為它能被閱讀、理解和修改。
 
 > 版本控制使這一切成為可能。
+
 
 
 
