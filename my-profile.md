@@ -18,16 +18,13 @@
 
 
 
->> 人被殺就會死。
+> 人被殺就會死。
 
 
 
 | 序號 | 專案名稱 |
-
 |:---:|---|
-
 | 1 | MyBookStore |
-
 | 2 | ruthless-answering-machine |
 
 
@@ -59,6 +56,7 @@ app.get("/questionbank/:subject", (req, res) => {
 > 是因為它能被閱讀、理解和修改。
 
 > 版本控制使這一切成為可能。
+
 
 
 
