@@ -33,29 +33,28 @@
 
 app.get("/index", (req, res) => {
 
-&nbsp;   pageGet("index", res, req);
+   pageGet("index", res, req);
 
 })
 
 app.get("/questionbank", (req, res) => {
 
-&nbsp;   pageGet("questionbank_index", res, req);
+   pageGet("questionbank_index", res, req);
 
 })
 
 app.get("/questionbank/:subject", (req, res) => {
 
-&nbsp;   pageGet("questionbank", res, req);
+   pageGet("questionbank", res, req);
 
 })
 
 ```
 
 > 程式碼之所以有價值，
-
 > 是因為它能被閱讀、理解和修改。
-
 > 版本控制使這一切成為可能。
+
 
 
 
