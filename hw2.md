@@ -4,7 +4,7 @@ gantt
     title Project Timeline
 
     section Planning & Development
-    研擬計畫        : Task1, 1d, 2025-10-01
+    研擬計畫        : Task1, 2025-10-01, 1d
     任務分配        : Task2, 1d, after Task 1
     取得硬體        : Task3, 17d, after Task 1
     程式開發        : Task4, 70d, after Task 2
