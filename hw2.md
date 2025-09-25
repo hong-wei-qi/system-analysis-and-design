@@ -1,4 +1,7 @@
-### Mermaid
+### PERT/CPM 圖
+![PERT/CPM 圖](./w2_PERT_CPM.png)
+
+### 甘特圖
 ```mermaid
 gantt
     title Project Timeline
@@ -18,8 +21,4 @@ gantt
     使用者訓練      : Task10, after Task7, 20d
     使用者測試      : Task11, after Task9, 25d
 ```
-[更多關於 **mermaid** 語法 <i class="fa fa-external-link"></i>](http://mermaid-js.github.io/mermaid)
-&nbsp;
-&nbsp;
 
----
