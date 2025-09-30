@@ -2,8 +2,11 @@
 ![PERT/CPM 圖](./w2_PERT_CPM.png)
 
 ``` mermaid
+%%{init: {'flowchart': {'htmlLabels': false}}}%%
 gantt
-    title       PERT/CPM 圖
+    dateFormat  X
+    excludes    weekends
+    title       專案任務 PERT/CPM 圖
 
     section 專案流程
     研擬計畫         :a1, 0, 1
@@ -18,6 +21,8 @@ gantt
     使用者訓練       :a10, after a7, a8, 20
     使用者測試       :crit, after a9, a10, 25
 
+    section 關鍵路徑 (Critical Path)
+    使用者測試       :crit, after a9, a10, 25
 ```
 
 ```mermaid
