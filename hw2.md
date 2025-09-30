@@ -34,18 +34,18 @@ digraph {
 	no10[label = "使用者訓練 | 編號:10 | 開始:第54天 | 結束:第73天 | 需時:20天 "]
 	no11[label = "使用者測試 | 編號:11 | 開始:第131天 | 結束:第155天 | 需時:25天 "]
 
-	no1 --> no2
-	no1 --> no3
-	no2 --> no4
-	no3 --> no5
-	no4 --> no6
-	no5 --> no7
-	no5 --> no8
-	no6 --> no9
-	no7 --> no10
-	no8 --> no10
-	no9 --> no11
-	no10 --> no11
+	no1 -> no2
+	no1 -> no3
+	no2 -> no4
+	no3 -> no5
+	no4 -> no6
+	no5 -> no7
+	no5 -> no8
+	no6 -> no9
+	no7 -> no10
+	no8 -> no10
+	no9 -> no11
+	no10 -> no11
 }
 ```
 
