@@ -18,7 +18,7 @@ digraph {
     no4->no5
 }
 
-``` mermaid
+```
 digraph {
 	node[shape=record];
 	rankdir="LR";
@@ -34,6 +34,7 @@ digraph {
     no3->no5
     no4->no5
 }
+
 ```
 
 ```mermaid
