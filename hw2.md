@@ -2,7 +2,8 @@
 ![PERT/CPM 圖](./w2_PERT_CPM.png)
 
 ``` mermaid
-dateFormat  X
+gantt
+    dateFormat  X
     excludes    weekends
     title       專案任務 PERT/CPM 圖
 
