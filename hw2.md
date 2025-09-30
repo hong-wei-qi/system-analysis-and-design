@@ -1,9 +1,25 @@
 ### PERT/CPM 圖
 ![PERT/CPM 圖](./w2_PERT_CPM.png)
 
+
+digraph {
+	node[shape=record];
+	rankdir="LR";
+    no1 [label = "取得授權 | 編號:1 | 開始:第1天 | 結束:第10天 | 需時:10天"]
+    no2 [label = "聘僱分析師 | 編號:2 | 開始:第11天 | 結束:40 | 需時:30天"]
+    no1->no2
+    no3 [label = "規劃訓練 | 編號:3 | 開始:第41天 | 結束:第45天 | 需時:5天"]
+    no4 [label = "安排後勤 | 編號:4 | 開始:第41天 | 結束:第65天 | 需時:25天"]
+    {rank=same;no3 no4}
+    no2->no3
+    no2->no4
+    no5 [label = "宣告訓練 | 編號:5 | 開始:第66天 | 結束:第95天 | 需時:30天"]
+    no3->no5
+    no4->no5
+}
+
 ``` mermaid
-graph TD
-	subgraph 專案時程 (Project Schedule)
+digraph {
 	no1[研擬計畫 | 編號:1 | 開始:第1天 | 結束:第1天 | 需時:1天]
 	no2[任務分配 | 編號:2 | 開始:第2天 | 結束:第5天 | 需時:4天]
 	no3[取得硬體 | 編號:3 | 開始:第2天 | 結束:第18天 | 需時:17天]
@@ -28,7 +44,7 @@ graph TD
 	no8 --> no10
 	no9 --> no11
 	no10 --> no11
-	end
+}
 ```
 
 ```mermaid
