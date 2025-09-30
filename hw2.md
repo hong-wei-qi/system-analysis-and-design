@@ -20,6 +20,8 @@ digraph {
 
 ``` mermaid
 digraph {
+	node[shape=record];
+	rankdir="LR";
 	no1[label = "研擬計畫 | 編號:1 | 開始:第1天 | 結束:第1天 | 需時:1天 "]
 	no2[label = "任務分配 | 編號:2 | 開始:第2天 | 結束:第5天 | 需時:4天 "]
 	no3[label = "取得硬體 | 編號:3 | 開始:第2天 | 結束:第18天 | 需時:17天 "]
